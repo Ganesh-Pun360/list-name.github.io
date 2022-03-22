@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <p id="flist">friends_list</p>
+
+    </div>
+
+    <input type="text" placeholder="Add or Remove Name..." id="input">
+    <label for="input" id="labelAdd">Old Name 👇🏿👇🏿👇🏿</label>
+    <input type="text" placeholder="which name ..." id="input2">
+    <label for="input3" id="labelAdd2">New Name 👇🏿👇🏿👇🏿</label>
+    <input type="text" placeholder="Update Now...😃" id="input3">
+
+    <button  class="btn" onclick="addFriends()">Add friend</button>
+    <button class="btn" onclick="del()">Delete</button>
+    <button class="btn" onclick="updated()">Update</button>
+    
+    <p id="notify">added,updated,deleted</p>
+
+
+<script src="logic.js"></script>
+</body>
+</html>
